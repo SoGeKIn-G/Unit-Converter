@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30sp"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/length"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/length" />
+
+            <TextView
+                style="@style/text_commen_style"
+                android:text="Length" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/area"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/area" />
+
+            <TextView
+                style="@style/text_commen_style"
+
+                android:text="Area" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/volume"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/volume" />
+
+            <TextView
+                style="@style/text_commen_style"
+
+                android:text="Volume" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/speed"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/speed" />
+
+            <TextView
+                style="@style/text_commen_style"
+                android:text="Speed" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/weight"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/weight" />
+
+            <TextView
+                style="@style/text_commen_style"
+
+                android:text="Weight" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_commen_style"
+            android:gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/temp"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/temperature" />
+
+            <TextView
+                style="@style/text_commen_style"
+
+                android:text="Temp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/ll_lastrow_commen_style"
+            android:layout_width="85dp"
+            android:layout_height="208dp">
+
+
+            <ImageView
+                android:id="@+id/power"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/power" />
+
+            <TextView
+                style="@style/text_commen_style"
+                android:text="Power" />
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/ll_lastrow_commen_style">
+
+
+            <ImageView
+                android:id="@+id/pressure"
+                style="@style/image_commen_style"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/pressure" />
+
+            <TextView
+                style="@style/text_commen_style"
+
+                android:text="Pressure" />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

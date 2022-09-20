@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+
+
+    <string-array name="lengthList">
+        <item>Millimeter(mm)</item>
+        <item>Decimeter(dm)</item>
+        <item>Kilometer(km)</item>
+        <item>Centimeter(cm)</item>
+        <item>Meter(m)</item>
+        <item>Foot(ft)</item>
+        <item>Mile(mi)</item>
+        <item>Inch(ic)</item>
+    </string-array>
+
+    <string-array name="areaList">
+        <item>Square Meter(m2)</item>
+        <item>Square Decimeter(dm2)</item>
+        <item>Square Centimeter(cm2)</item>
+        <item>Square Kilometer(km2)</item>
+        <item>Square Millimeter(mm2)</item>
+        <item>Hacter(ha)</item>
+        <item>Square Foot(ft2)</item>
+        <item>Acre(ac)</item>
+        <item>Square Inch(in2)</item>
+    </string-array>
+
+    <string-array name="volumeList">
+        c
+        <item>Cubic Meter(m3)</item>
+        <item>Cubic Cm(cm3)</item>
+        <item>Deciliter(dl)</item>
+        <item>Centiliter(lm)</item>
+        <item>Cubic Decimeter(dm3)</item>
+        <item>Liter(l)</item>
+        <item>Cubic Milliliter(mm3)</item>
+        <item>Milliliter(ml)</item>
+        <item>Cubic Foot(ft3)</item>
+        <item>Cubic Inch(in3)</item>
+    </string-array>
+
+    <string-array name="speedList">
+        <item>Speed of Light(c)</item>
+        <item>Kilometer per Second(km/s)</item>
+        <item>Mile per hour(mile/h)</item>
+        <item>Inch per Second(in/s)</item>
+        <item>Meter per Second(m/s)</item>
+        <item>Kilometer per hour(km/h)</item>
+    </string-array>
+
+    <string-array name="weightList">
+        <item>Gram(g)</item>
+        <item>Quintal(q)</item>
+        <item>Ton(t)</item>
+        <item>Milligram(mg)</item>
+        <item>Kilogram(kg)</item>
+        <item>Ounce(oz)</item>
+        <item>pound(lb)</item>
+    </string-array>
+
+    <string-array name="tempList">
+        <item>Degree Celsias</item>
+        <item>Degree Fahrenheit</item>
+        <item>Kelvin(k)</item>
+    </string-array>
+
+    <string-array name="powerList">
+        <item>Joule/sec(j/s)</item>
+        <item>Metric Horse power(ps)</item>
+        <item>Kilogram-Meter/sec(kg.m/s)</item>
+        <item>Kilocalorie/sec(kcal/s)</item>
+        <item>Watt(w)</item>
+        <item>Newton-Meter/sec(N.m/s)</item>
+        <item>Kilowatt(kw)</item>
+    </string-array>
+
+    <string-array name="pressureList">
+        <item>mm of water(mmH2O)</item>
+        <item>Pounds/Square Foot(psf)</item>
+        <item>mm of Mercury(mmHg)</item>
+        <item>Bar</item>
+        <item>Milibar</item>
+        <item>Standard Atmosphere</item>
+        <item>Kilopaskal</item>
+    </string-array>
+
+
+</resources>
